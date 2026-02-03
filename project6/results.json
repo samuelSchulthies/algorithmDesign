@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "baseline",
+      "output": "<h1>Test Small Greedy</h1> <div class=\"comparison-container-empty\" style=\"display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-bottom: 10px; padding: 0 10px;\"></div> <br><h1>Test Multiple Solutions Greedy</h1> <div class=\"comparison-container-empty\" style=\"display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-bottom: 10px; padding: 0 10px;\"></div> <br><h1>Test Medium Greedy</h1> <div class=\"comparison-container-empty\" style=\"display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-bottom: 10px; padding: 0 10px;\"></div> <br><h1>Test Large Greedy</h1> <div class=\"comparison-container-empty\" style=\"display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-bottom: 10px; padding: 0 10px;\"></div> <br><h1>Test Massive Greedy</h1> <div class=\"comparison-container-empty\" style=\"display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-bottom: 10px; padding: 0 10px;\"></div> <br>",
+      "output_format": "html",
+      "max_score": 0,
+      "score": 0,
+      "visibility": "visible"
+    }
+  ]
+}

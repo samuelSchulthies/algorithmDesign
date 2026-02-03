@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "baseline",
+      "output": "<h1>Test Large Dna Alignment</h1> <div class=\"comparison-container\" style=\"display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-bottom: 10px; padding: 0 10px;\">\n<div class=\"section\" style=\"flex: 1 1 300px; min-width: 0;\">\n<p><strong style=\"font-size: 1em;\">Output</strong></p>\n<div class=\"content\" style=\"background: rgb(245, 245, 245); padding: 10px; border: 1px solid #ddd; border-radius: 3px; overflow-x: auto;\">\n<pre>align = <function 0x112848ee0=\"\" align=\"\" at=\"\">\n\n    @baseline\n    @with_import('alignment')\n    def test_large_dna_alignment(align):\n        timer = Timer()\n        for N in [500]:\n            timer.start_lap()\n            seq1 = read_sequence(test_files / 'bovine_coronavirus.txt')[:N]\n            seq2 = read_sequence(test_files / 'murine_hepatitus.txt')[:N]\n    \n            score, aseq1, aseq2 = align(seq1, seq2)\n    \n&gt;           with open(test_files / f'large_bovine_murine_align_{N}.txt') as file:\nE           FileNotFoundError: [Errno 2] No such file or directory: '/Users/samuelschulthies/PycharmProjects/cs312/project5/test_files/large_bovine_murine_align_500.txt'\n\ntest_alignment.py:192: FileNotFoundError</function></pre>\n</div>\n</div>\n</div> <br>",
+      "output_format": "html",
+      "max_score": 0,
+      "score": 0,
+      "visibility": "visible"
+    }
+  ]
+}
